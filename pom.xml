@@ -14,13 +14,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <udev.version>175</udev.version>
-        <jnaerator.version>0.10</jnaerator.version>
+        <jnaerator.version>0.11</jnaerator.version>
     </properties>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/nigelb/jlibudev.git</developerConnection>
-        <connection>scm:git:http://github.com/nigelb/jlibudev.git</connection>
-        <url>https://github.com/nigelb/jlibudev</url>
+        <developerConnection>scm:git:https://github.com/jk128/jlibudev.git</developerConnection>
+        <connection>scm:git:http://github.com/jk128/jlibudev.git</connection>
+        <url>https://github.com/jk128/jlibudev</url>
     </scm>
 
     <dependencies>
@@ -29,16 +29,16 @@
             <artifactId>log4j</artifactId>
             <version>1.2.14</version>
         </dependency>
-        <dependency>
-            <groupId>com.nativelibs4java</groupId>
-            <artifactId>jnaerator-runtime</artifactId>
-            <version>${jnaerator.version}</version>
-            <scope>compile</scope>
-        </dependency>
+<!--         <dependency> -->
+<!--             <groupId>com.nativelibs4java</groupId> -->
+<!--             <artifactId>jnaerator-runtime</artifactId> -->
+<!--             <version>${jnaerator.version}</version> -->
+<!--             <scope>compile</scope> -->
+<!--         </dependency> -->
         <dependency>
             <groupId>com.sparetimelabs</groupId>
             <artifactId>purejavacomm</artifactId>
-            <version>0.0.17</version>
+            <version>0.0.21</version>
         </dependency>
     </dependencies>
 
