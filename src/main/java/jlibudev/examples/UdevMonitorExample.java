@@ -40,6 +40,7 @@ public class UdevMonitorExample {
 
     public static void main(String[] args) {
         Udev ud = jlibUdev.createUdev();
+        // create events monitoring on channel "udev"
         UdevMonitor mon = ud.createMonitor("udev");
         mon.filterAddMatchSubsystemDevtype(null, null);
         mon.enable();
